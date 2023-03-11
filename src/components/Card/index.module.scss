@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.card {
+    border: 1px solid #303030;
+    width: 400px;
+    border-radius: 8px;
+    border-color: $cor-padrao;
+    overflow: hidden;
+
+    &__imagem {
+        width: 100%;
+    }
+
+    &__info {
+        text-align: center;
+        padding: 1em;
+
+        p {
+            color: #303030;
+            font-weight: 400;
+        }
+    }
+
+
+}

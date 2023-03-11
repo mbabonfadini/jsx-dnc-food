@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 5em;
+    background:$cor-padrao ;
+    box-shadow: 2px 4px 4px rgba(173, 173, 173, 0.25);
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        
+    }
+
+    &__logo {
+        font-size: 25px;
+    }
+
+    &__nav {
+        display: flex;
+
+        ul li {
+            display: inline-block;
+            padding: 0 1em;
+        }
+    }
+
+    &__carrinho {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        &__icon {
+            font-size: 30px;
+        }
+    }
+}
